@@ -1,5 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+:root {
+  --primary-color: #007AF3;
+}
+
 body {
-  background: #f2f2f2;
+  background: #F2F2F2;
   margin: 0;
+  font-family: 'Poppins';
+}
+
+.navbar {
+  background: #02a7f0;
+  padding-left: 3em;
+  padding-top: 1em;
+  padding-right: 3em;
+  padding-bottom: 0.5em;
+}
+
+.navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.navbar .container .logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  font-size: 3.5em;
+}
+
+.navbar .container .logo span {
+  color: #fabc49;
+}
+
+.navbar .container ul {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 0.75em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar .container .navigation_element_listy {
+  padding: 0.3em;
+}
+
+.navbar .container .button_logowanie_i_rejestracja {
+  width: 250px;
+  height: 50px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.navbar .container .button_logowanie_i_rejestracja .link_do_buttona {
+  text-decoration: none;
+  font-size: 2em;
+  margin: 0.5em;
+  font-weight: bold;
+  color: black;
+}
+
+.navbar .container .vertical_line {
+  width: 30px;
+  height: 75%;
+}
+
+.navbar .container .search_icon {
+  width: 45px;
+}
+
+.navbar .process_nav {
+  padding-bottom: 0;
+}
+
+.navbar .process_nav .process_nav_element_listy {
+  padding-top: 1.4em;
+  padding-bottom: 0;
+}
+
+.navbar .process_nav .process_nav_element_listy .div_process_nav_wybrany {
+  border: 2px solid black;
+  width: 160px;
+  height: 30px;
+  text-decoration: none;
+  font-size: 1.1em;
+  margin: 0.5em;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.navbar .process_nav .process_nav_element_listy .div_process_nav {
+  border: 2px solid black;
+  width: 160px;
+  height: 30px;
+  text-decoration: none;
+  font-size: 1.1em;
+  margin: 0.5em;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  border-radius: 10px;
+  background-color: chocolate;
+}
+
+.navbar .przycisk_anuluj {
+  border: 2px solid black;
+  width: 160px;
+  height: 50px;
+  margin: 0.5em;
+  text-align: center;
+  border-radius: 10px;
+  background-color: red;
+}
+
+.navbar .przycisk_anuluj .wnetrze_przycisku_anuluj {
+  text-decoration: none;
+  font-size: 1.99999em;
+  font-weight: bold;
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */

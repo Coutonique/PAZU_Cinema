@@ -1,5 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #007AF3;
+}
 
 body {
-    background: #f2f2f2;
+    background: #F2F2F2;
     margin: 0;
+    font-family: 'Poppins';
+}
+
+.navbar {
+    background: #02a7f0;
+    padding-left: 3em;
+    padding-top: 1em;
+    padding-right: 3em;
+    padding-bottom: 0.5em;
+    //height: 80px;
+
+    
+    .container {
+        display: flex;
+        place-content: space-between;
+    
+        .logo {
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+            font-size: 3.5em;
+
+            span {
+                color: #fabc49;
+            }
+        }
+
+        ul {
+            list-style-type: none; 
+            margin: 0;
+            padding-top: 0.75em;
+            display: flex;
+        }
+
+        .navigation_element_listy {
+            padding: 0.3em;
+        }
+
+        .button_logowanie_i_rejestracja {
+            width: 250px;
+            height: 50px;
+            border-radius: 10px;
+            border: 2px solid black;
+            .link_do_buttona {
+                text-decoration: none;
+                font-size: 2em;
+                margin: 0.5em;
+                font-weight: bold;
+                color: black;
+            }
+        }
+        .vertical_line {
+            width: 30px;
+            height: 75%;
+        }
+        .search_icon {
+            width: 45px;
+        }
+}
+
+.process_nav {
+    padding-bottom: 0;
+    .process_nav_element_listy {
+        padding-top: 1.4em;
+        padding-bottom: 0;
+        .div_process_nav_wybrany {
+            border: 2px solid black;
+            width: 160px;
+            height: 30px;
+            text-decoration: none;
+            font-size: 1.1em;
+            margin: 0.5em;
+            font-weight: bold;
+            color: black;
+            text-align: center;
+            border-radius: 10px;
+            background-color: white;
+        }
+        .div_process_nav {
+            border: 2px solid black;
+            width: 160px;
+            height: 30px;
+            text-decoration: none;
+            font-size: 1.1em;
+            margin: 0.5em;
+            font-weight: bold;
+            color: black;
+            text-align: center;
+            border-radius: 10px;
+            background-color: chocolate;
+        }
+    }
+}
+
+.przycisk_anuluj {
+    border: 2px solid black;
+            width: 160px;
+            height: 50px;
+            margin: 0.5em;
+            text-align: center;
+            border-radius: 10px;
+            background-color: red;
+    .wnetrze_przycisku_anuluj {
+        text-decoration: none;
+        font-size: 1.99999em;
+        font-weight: bold;
+        color: white;
+
+    }
+}
+
+
+
+
+
 }
