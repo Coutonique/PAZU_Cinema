@@ -132,6 +132,10 @@ body {
   padding-right: 1em;
 }
 
+.sekcja-repertuar .repertuar-drop-down {
+  padding-bottom: 10px;
+}
+
 .sekcja-repertuar .repertuar_linia {
   width: 40px;
   height: 3px;
@@ -139,5 +143,82 @@ body {
   background-color: #919191;
   position: absolute;
   left: 1em;
+}
+
+.sekcja-plakatow-filmow {
+  padding-top: 0;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.sekcja-plakatow-filmow .polecane_linia {
+  width: 40px;
+  height: 3px;
+  color: black;
+  background-color: #919191;
+  position: absolute;
+  left: 1em;
+}
+
+.sekcja-plakatow-filmow .polecane-filmy .lista-polecanych-filmow-zewnetrzna {
+  list-style-type: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.sekcja-plakatow-filmow .polecane-filmy .lista-polecanych-filmow-zewnetrzna .element-1-lista-polecanych-filmow-zewnetrznej .lista-polecanych-filmow-wewnetrzna-1 {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sekcja-plakatow-filmow .polecane-filmy .lista-polecanych-filmow-zewnetrzna .element-2-lista-polecanych-filmow-zewnetrznej .lista-polecanych-filmow-wewnetrzna-2 {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sekcja-plakatow-filmow .premiery {
+  padding-top: 1em;
+}
+
+.sekcja-plakatow-filmow .premiery .lista-premiery-zewnetrzna {
+  list-style-type: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.sekcja-plakatow-filmow .premiery .lista-premiery-zewnetrzna .element-1-lista-premiery-zewnetrznej .lista-premiery-wewnetrzna-1 {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sekcja-plakatow-filmow .premiery .lista-premiery-zewnetrzna .element-2-lista-premiery-zewnetrznej .lista-premiery-wewnetrzna-2 {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.film-glowna-strona .film-glowna-strona-pojemnik .poster {
+  border: 1px #cccccc solid;
+  padding: 4px;
+  margin: auto;
+}
+
+.film-glowna-strona .film-glowna-strona-pojemnik .caption {
+  color: black;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+  position: relative;
 }
 /*# sourceMappingURL=main.css.map */
