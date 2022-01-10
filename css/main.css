@@ -125,4 +125,19 @@ body {
   font-weight: bold;
   color: white;
 }
+
+.sekcja-repertuar {
+  padding-top: 0;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.sekcja-repertuar .repertuar_linia {
+  width: 40px;
+  height: 3px;
+  color: black;
+  background-color: #919191;
+  position: absolute;
+  left: 1em;
+}
 /*# sourceMappingURL=main.css.map */

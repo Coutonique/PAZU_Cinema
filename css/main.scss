@@ -117,9 +117,20 @@ body {
 
     }
 }
+}
 
-
-
-
-
+.sekcja-repertuar {
+    padding-top: 0;
+    padding-left: 1em;
+    padding-right: 1em;
+    .repertuar-napis {        
+    }
+    .repertuar_linia {
+        width: 40px;
+        height: 3px;
+        color: black;
+        background-color: rgb(145, 145, 145);
+        position: absolute;
+        left: 1em;
+    }
 }
