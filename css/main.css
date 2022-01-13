@@ -129,12 +129,14 @@ body {
 
 .sekcja-repertuar {
   padding-top: 0;
-  padding-left: 1em;
+  padding-left: 5%;
   padding-right: 1em;
 }
 
 .sekcja-repertuar .repertuar-drop-down {
   padding-bottom: 10px;
+  font-size: 15px;
+  margin-bottom: 5px;
 }
 
 .sekcja-repertuar .repertuar_linia {
@@ -143,12 +145,12 @@ body {
   color: black;
   background-color: #919191;
   position: absolute;
-  left: 1em;
+  left: 5%;
 }
 
 .sekcja-plakatow-filmow {
   padding-top: 0;
-  padding-left: 1em;
+  padding-left: 5%;
   padding-right: 1em;
 }
 
@@ -158,13 +160,13 @@ body {
   color: black;
   background-color: #919191;
   position: absolute;
-  left: 1em;
+  left: 5%;
 }
 
 .sekcja-plakatow-filmow .polecane-filmy .lista-polecanych-filmow-zewnetrzna {
   list-style-type: none;
   display: block;
-  margin-left: auto;
+  margin-left: 10%;
   margin-right: auto;
   padding: 10px;
 }
@@ -190,7 +192,7 @@ body {
 .sekcja-plakatow-filmow .premiery .lista-premiery-zewnetrzna {
   list-style-type: none;
   display: block;
-  margin-left: auto;
+  margin-left: 10%;
   margin-right: auto;
   padding: 10px;
 }
