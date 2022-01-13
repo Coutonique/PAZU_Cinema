@@ -70,6 +70,7 @@ body {
   cursor: pointer;
 }
 
+
 .navbar
   .container
   .button_logowanie_i_rejestracja
@@ -135,10 +136,8 @@ body {
   background-color: rgba(245, 154, 35, 1);
 }
 
-.navbar .przycisk_anuluj {
+.navbar .przycisk_anuluj  {
   border: 2px solid black;
-  width: 160px;
-  height: 50px;
   margin: 0.5em;
   text-align: center;
   border-radius: 10px;
@@ -153,6 +152,8 @@ body {
   font-size: 1.99999em;
   font-weight: bold;
   color: white;
+  width: 160px;
+  height: 50px;
 }
 
 .sekcja-repertuar {
@@ -674,4 +675,46 @@ td {
   display: inline;
 }
 
+.podsumowanie_przyciski {
+  list-style-type: none;
+  display: flex;
+  padding-left: 17%;
+}
+
+.podsumowanie_przyciski .przycisk_podsumowanie {
+  border: 1px solid black;
+  width: 200px;
+  height: 150px;
+  text-decoration: none;
+  font-size: 1.1em;
+  margin: 0.5em;
+  margin-left: 100px;
+  margin-right: 100px;
+  color: black;
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgb(128, 255, 255);
+  text-align: center;
+  align-self: center;
+  padding-top: 15%;
+  padding-bottom: 1%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.podsumowanie_przyciski .przycisk_podsumowanie .napis_w_przycisku_podsumwoanie {
+  align-self: center;
+}
+
+.podsumowanie_przyciski .podsumowanie_albo {
+  font-size: 1.1em;
+  padding-top: 190%;
+  padding-bottom: 1%;
+
+}
+
+.podsumowanie_przyciski .link_bez_niczego {
+  text-decoration: none;
+  color: black;
+}
 /*# sourceMappingURL=main.css.map */
