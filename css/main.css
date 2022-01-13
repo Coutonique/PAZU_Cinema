@@ -401,8 +401,7 @@ body {
 }
 
 .miejsca .miejsca_ekran {
-  padding-left: 35%;
-  padding-right: 36%;
+  padding-left: 27%;
   transform: rotate(180deg);
   margin-top: 1.8%;
   transform: scale(1.6);
