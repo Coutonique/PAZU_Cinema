@@ -362,4 +362,168 @@ th, td {
     line-height: normal;
     text-transform: none;
 }
+
+.srodkowy_napis_wybor_miejsc {
+  align-self: center;
+  text-align: center;
+  margin-left: 225px;
+  margin-top: -1px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(2, 167, 240, 1);
+  border-radius: 0px;
+}
+
+.legenda {
+  align-self: center;
+  text-align: center;
+}
+
+.legenda .lista_legenda {
+  list-style-type: none;
+  align-self: center;
+  text-align: center;
+  margin-left: 225px;
+  margin-top: -1px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(2, 167, 240, 1);
+  border-radius: 0px;
+  display: flex;
+  padding-left: 15px;
+}
+
+.legenda .lista_legenda .wolne_legenda {
+  border: 1px solid black;
+  width: 70px;
+  height: 30px;
+  text-decoration: none;
+  font-size: 1.1em;
+  margin: 0.5em;
+  color: black;
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgba(99, 161, 3, 1);
+}
+
+.legenda .lista_legenda .niedostepne_legenda {
+  border: 1px solid black;
+  width: 120px;
+  height: 30px;
+  text-decoration: none;
+  font-size: 1.1em;
+  margin: 0.5em;
+  color: black;
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgba(170, 170, 170, 1);
+}
+
+.legenda .lista_legenda .wybrane_legenda {
+  border: 1px solid black;
+  width: 90px;
+  height: 30px;
+  text-decoration: none;
+  font-size: 1.1em;
+  margin: 0.5em;
+  color: black;
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgba(245, 154, 35, 1);
+}
+
+.miejsca .miejsca_ekran {
+  padding-left: 27%;
+  transform: rotate(180deg);
+  margin-top: 1.8%;
+  transform: scale(1.6);
+}
+
+.miejsca_ikony {
+  margin-top: 2.3%;
+  margin-left: 15%;
+}
+.miejsca_ikony .lista_rzedy {
+  list-style-type: none;
+  align-self: center;
+  text-align: center;
+  margin-left: 225px;
+  display: flex;
+  padding-left: 15px;
+  margin-bottom: 7px;
+  margin-top: 7px;
+}
+
+.miejsca_ikony .lista_rzedy .numer_rzedu_miejsca {
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+  font-size: 2em;
+  margin: 0.2em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+
+}
+
+.miejsca_ikony .lista_rzedy .ikona_wolne {
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+  font-size: 1.7em;
+  margin: 0.2em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: black;
+  text-align: center;
+  border-radius: 3px;
+  background-color: rgba(99, 161, 3, 1);
+}
+
+.miejsca_ikony .lista_rzedy .ikona_niewidoczna {
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+  font-size: 1.7em;
+  margin: 0.2em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: black;
+  text-align: center;
+  border-radius: 3px;
+  background-color: rgba(99, 161, 3, 1);
+  visibility: hidden;
+}
+
+.miejsca_ikony .lista_rzedy .ikona_niedostepne {
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+  font-size: 1.7em;
+  margin: 0.2em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: black;
+  text-align: center;
+  border-radius: 3px;
+  background-color: rgba(170, 170, 170, 1);
+}
+
+.miejsca_ikony .lista_rzedy .ikona_wybrane {
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+  font-size: 1.7em;
+  margin: 0.2em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: black;
+  text-align: center;
+  border-radius: 3px;
+  background-color: rgba(245, 154, 35, 1);  
+}
 /*# sourceMappingURL=main.css.map */
