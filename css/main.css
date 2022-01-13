@@ -435,10 +435,9 @@ th, td {
 }
 
 .miejsca .miejsca_ekran {
-  padding-left: 27%;
-  transform: rotate(180deg);
+  padding-right: 27%;
+  transform: rotate(180deg) scale(1.6);
   margin-top: 1.8%;
-  transform: scale(1.6);
 }
 
 .miejsca_ikony {
