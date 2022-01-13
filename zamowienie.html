@@ -1,129 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Zamówienie</title>
-        <link rel="stylesheet" href="css/main.css">
-    </head>
-    <body>
-
-        <div class="navbar">
-            <div class="container">
-                <a class="logo" href="index.html">Cin<span>EX</span> </a>
-                <nav>
-                    <ul class="process_nav">
-                        <li class="process_nav_element_listy"><div class="div_process_nav">
-                            MIEJSCA
-                        </div></li>
-                        <li class="process_nav_element_listy"><div class="div_process_nav">
-                            BILETY
-                        </div></li>
-                        <li class="process_nav_element_listy"><div class="div_process_nav_wybrany">
-                            ZAMÓWIENIE
-                        </div></li>
-                        <li class="process_nav_element_listy"><div class="div_process_nav">
-                            POTWIERDZENIE
-                        </div></li>
-                        <li class="process_nav_element_listy"><div class="div_process_nav">
-                            PODSUMOWANIE
-                        </div></li>
-
-                    </ul>
-                </nav>
-                <div class="przycisk_anuluj">
-                    <a class="wnetrze_przycisku_anuluj" href="index.html">ANULUJ</a>
-                </div>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Zamówienie</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="container">
+        <a class="logo" href="index.html"
+          >Cin<span>EX</span>
+        </a>
+        <nav>
+          <ul class="process_nav">
+            <li class="process_nav_element_listy">
+              <div class="div_process_nav">
+                MIEJSCA
+              </div>
+            </li>
+            <li class="process_nav_element_listy">
+              <div class="div_process_nav">
+                BILETY
+              </div>
+            </li>
+            <li class="process_nav_element_listy">
+              <div
+                class="div_process_nav_wybrany"
+              >
+                ZAMÓWIENIE
+              </div>
+            </li>
+            <li class="process_nav_element_listy">
+              <div class="div_process_nav">
+                POTWIERDZENIE
+              </div>
+            </li>
+            <li class="process_nav_element_listy">
+              <div class="div_process_nav">
+                PODSUMOWANIE
+              </div>
+            </li>
+          </ul>
+        </nav>
+        <div class="przycisk_anuluj">
+          <a
+            class="wnetrze_przycisku_anuluj"
+            href="index.html"
+            >ANULUJ</a
+          >
         </div>
-    
+      </div>
+    </div>
     <section>
-        <div class="centralpanel"> 
-            <div style=text-align:center>
-                <strong>Wybrane bilety</strong>
-            </div>
-            <table>
-                <tr>
-                <th>LN</th>
-                <th>Nr miejsca</th>
-                <th>Rodzaj</th>
-                <th>Cena</th>
-                </tr>
-                <tr>
-                <td>1</td>
-                <td>23</td>
-                <td>Ulgowy</td>
-                <td>12 zł</td>
-                </tr>
-                <tr>
-                <td>2</td>
-                <td>5</td>
-                <td>Normalny</td>
-                <td>14 zł</td>
-                </tr>
-                <tr>
-                <td>3</td>
-                <td>4</td>
-                <td>Normalny</td>
-                <td>14 zł</td>
-                </tr>
-                <tr>
-                <td>4</td>
-                <td>17</td>
-                <td>Normalny</td>
-                <td>14 zł</td>
-                </tr>
-                </table>
-                <div style=text-align:center>
-                    <strong>Łączna kwota: 
-                        <div style="color:red;font-size:42px;">
-                            54 zł
-                        </div>
-                    </strong>
-                </div>
-            <div style=font-size:24px>
-                <strong>Podaj swoje dane</strong>
-            </div>
-            <div style="padding-left:3%;padding-top:1%">
-                <label>Imię</label><br>
-                <input type="text" id="name" name="name"><br>
-                <label>Nazwisko</label><br>
-                <input type="text" id="surname" name="surname"><br>
-                <label>Email</label><br>
-                <input type="text" id="email" name="email"><br>
-                <label>Numer telefonu</label><br>
-                <input type="text" id="phonenumber" name="phonenumber"><br>
-            </div>
-            <div style="padding-top:3%">
-                <input type="checkbox" id="checkbox1" name="checkbox1">
-                <label for="checkbox1">Przeczytałem regulamin i akceptuję jego zasady</label><br>
-            </div>
-        </div>
+      <div class="sidebar">
+        <strong>Lorem Ipsum</strong>
+        <br /><br />
+        dzień<br />
+        dd/mm/rrrr gg:hh<br />
+        adres kina<br />
+        Sala nr t.
+      </div>
     </section>
 
     <section>
-        <div class="sidebar">
-            <strong>Lorem Ipsum</strong>
-            <br><br>
-            dzień<br>
-            dd/mm/rrrr gg:hh<br>
-            adres kina<br>
-            Sala nr   t.
+      <div class="bottombar">
+        <div
+          class="back_button"
+          onclick="location.href='zakladka_bilety.html';"
+        >
+          <p class="back_button_text">WSTECZ</p>
         </div>
+        <div
+          class="next_button"
+          onclick="location.href='potwierdzenie.html';"
+        >
+          <p class="next_button_text">DALEJ</p>
+        </div>
+      </div>
     </section>
-
     <section>
-        <div class="bottombar">
-            <div class="back_button" onclick="location.href='zakladka_bilety.html';">
-                <p class="back_button_text">WSTECZ</p>
-            </div>
-            <div class="next_button" onclick="location.href='potwierdzenie.html';">
-                <p class="next_button_text">DALEJ</p>
-            </div>
+      <div class="centralpanel">
+        <div style="text-align: center">
+          <strong>Wybrane bilety</strong>
         </div>
+        <table>
+          <tr>
+            <th>LN</th>
+            <th>Nr miejsca</th>
+            <th>Rodzaj</th>
+            <th>Cena</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>23</td>
+            <td>Ulgowy</td>
+            <td>12 zł</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>5</td>
+            <td>Normalny</td>
+            <td>14 zł</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>4</td>
+            <td>Normalny</td>
+            <td>14 zł</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>17</td>
+            <td>Normalny</td>
+            <td>14 zł</td>
+          </tr>
+        </table>
+        <div style="text-align: center">
+          <strong
+            >Łączna kwota:
+            <div
+              style="color: red; font-size: 42px"
+            >
+              54 zł
+            </div>
+          </strong>
+        </div>
+        <div style="font-size: 24px">
+          <strong>Podaj swoje dane</strong>
+        </div>
+        <div
+          style="
+            padding-left: 3%;
+            padding-top: 1%;
+          "
+        >
+          <label>Imię</label><br />
+          <input
+            type="text"
+            id="name"
+            name="name"
+          /><br />
+          <label>Nazwisko</label><br />
+          <input
+            type="text"
+            id="surname"
+            name="surname"
+          /><br />
+          <label>Email</label><br />
+          <input
+            type="text"
+            id="email"
+            name="email"
+          /><br />
+          <label>Numer telefonu</label><br />
+          <input
+            type="text"
+            id="phonenumber"
+            name="phonenumber"
+          /><br />
+        </div>
+        <div style="padding-top: 3%">
+          <input
+            type="checkbox"
+            id="checkbox1"
+            name="checkbox1"
+          />
+          <label for="checkbox1"
+            >Przeczytałem regulamin i akceptuję
+            jego zasady</label
+          ><br />
+        </div>
+      </div>
     </section>
-
-    </body>
+  </body>
 </html>
