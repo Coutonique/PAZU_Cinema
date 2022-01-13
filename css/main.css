@@ -225,6 +225,38 @@ body {
   position: relative;
 }
 
+.centralpanel {
+    height: 78%;
+    width: 1680px;
+    position: fixed;
+    padding-left: 240px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+}
+
+table {
+  border: 1px solid black;
+  width: 95%;
+}
+th, td {
+  border: 0px solid black;
+  text-align: center;
+}
+
+.dataconfirmation {
+  text-align: left;
+}
+
+.centralpanel .listoftickets .text {
+    padding-top: 140px;
+}
+
+.centralpanel .listoftickets .text2 {
+    padding-top: 140px;
+    margin-right: 22%;
+}
+
 .sidebar {
     height: 100%;
     width: 220px;
