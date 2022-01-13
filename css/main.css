@@ -55,12 +55,17 @@ body {
   border: 2px solid black;
 }
 
-.navbar .container .button_logowanie_i_rejestracja .link_do_buttona {
+.navbar .container .link_do_buttona {
+  width: 250px;
+  height: 50px;
   text-decoration: none;
   font-size: 2em;
   margin: 0.5em;
   font-weight: bold;
   color: black;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
 }
 
 .navbar .container .vertical_line {
@@ -110,21 +115,22 @@ body {
   background-color: rgba(245, 154, 35, 1);
 }
 
-.navbar .przycisk_anuluj {
+.navbar .przycisk_anuluj  {
   border: 2px solid black;
-  width: 160px;
-  height: 50px;
   margin: 0.5em;
   text-align: center;
   border-radius: 10px;
   background-color: red;
+  text-decoration: none;
+  padding: 1%;
 }
 
-.navbar .przycisk_anuluj .wnetrze_przycisku_anuluj {
-  text-decoration: none;
+.navbar .przycisk_anuluj .przycisk_anuluj_div {
   font-size: 1.99999em;
   font-weight: bold;
   color: white;
+  width: 160px;
+  height: 50px;
 }
 
 .sekcja-repertuar {
