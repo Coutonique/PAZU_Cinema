@@ -88,17 +88,68 @@
             </div>
             <div style="padding-left:3%;padding-top:1%">
                 <label>Imię</label><br>
-                <input type="text" id="name" name="name"><br>
+                <input type="text" id="name" name="name" onchange="checkname()"><br>
+                <div id="validation_name" style="color:red">To pole jest wymagane</div>
                 <label>Nazwisko</label><br>
-                <input type="text" id="surname" name="surname"><br>
+                <input type="text" id="surname" name="surname" onchange="checksurname()"><br>
+                <div id="validation_surname" style="color:red">To pole jest wymagane</div>
                 <label>Email</label><br>
-                <input type="text" id="email" name="email"><br>
+                <input type="text" id="email" name="email" onchange="checkemail()"><br>
+                <div id="validation_email" style="color:red">To pole jest wymagane</div>
                 <label>Numer telefonu</label><br>
-                <input type="text" id="phonenumber" name="phonenumber"><br>
+                <input type="text" id="phonenumber" name="phonenumber" onchange="checkphonenumber()"><br>
+                <div id="validation_phonenumber" style="color:red">To pole jest wymagane</div>
+                <script type="text/javascript">
+                    function checkname(){
+                        var name = document.getElementById("name").value;
+                        var validation_name = document.getElementById("validation_name");
+                        if(name===""){
+                            validation_name.style.visibility = "visible";
+                        }else{
+                            validation_name.style.visibility = "hidden";
+                        }
+                    }
+                    function checksurname(){
+                        var surname = document.getElementById("surname").value;
+                        var validation_surname = document.getElementById("validation_surname");
+                        if(surname===""){
+                            validation_surname.style.visibility = "visible";
+                        }else{
+                            validation_surname.style.visibility = "hidden";
+                        }
+                    }
+                    function checkemail(){
+                        var email = document.getElementById("email").value;
+                        var validation_email = document.getElementById("validation_email");
+                        if(email===""){
+                            validation_email.style.visibility = "visible";
+                        }else{
+                            validation_email.style.visibility = "hidden";
+                        }
+                    }
+                    function checkphonenumber(){
+                        var phonenumber = document.getElementById("phonenumber").value;
+                        var validation_phonenumber = document.getElementById("validation_phonenumber");
+                        if(phonenumber===""){
+                            validation_phonenumber.style.visibility = "visible";
+                        }else{
+                            validation_phonenumber.style.visibility = "hidden";
+                        }
+                    }
+                    function checkboxvalidation(){
+                        var checkbox = document.getElementById("checkbox1");
+                        if(checkbox.checked){
+                            validation_checkbox.style.visibility = "hidden";
+                        } else{
+                            validation_checkbox.style.visibility = "visible";
+                        }
+                    }
+                </script>
             </div>
             <div style="padding-top:3%">
-                <input type="checkbox" id="checkbox1" name="checkbox1">
+                <input type="checkbox" id="checkbox1" name="checkbox1" onclick="checkboxvalidation()">
                 <label for="checkbox1">Przeczytałem regulamin i akceptuję jego zasady</label><br>
+                <div id="validation_checkbox" style="color:red">To pole jest wymagane</div>
             </div>
         </div>
     </section>

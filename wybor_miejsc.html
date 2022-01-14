@@ -81,7 +81,24 @@
             <img class="miejsca_ekran" src="assets/screen.svg" alt="">
 
         </div>
-
+        <script>
+            var snd = new Audio("assets/test_sound.mp3");
+            function popupin(){
+                var mypopup = document.getElementById("myPopup");
+                mypopup.classList.add("show");
+            }
+            function popupout(){
+                var mypopup = document.getElementById("myPopup");
+                mypopup.classList.remove("show");
+            }
+            function playmusic(){
+                snd.play();
+            }
+            function stopmusic(){
+                snd.pause();
+                snd.currentTime = 0;
+            }
+        </script>
         <div class="miejsca_ikony">
             <ul class="lista_rzedy">
                 <li>
@@ -90,8 +107,13 @@
                     </div>
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         1
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div>                    
                 </li>
                 <li>
@@ -100,33 +122,63 @@
                     </div> 
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         3
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div>                     
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         4
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div> 
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         5
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div>                     
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         6
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div> 
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         7
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div>                     
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         8
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div> 
                 </li>
                 <li>
@@ -140,28 +192,53 @@
                     </div> 
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         11
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div>                     
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         12
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div> 
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         13
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div>                     
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         14
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div> 
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         15
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div>                     
                 </li>
                 <li>
@@ -170,13 +247,23 @@
                     </div> 
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         17
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div>                     
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         18
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div> 
                 </li>
                 <li>
@@ -192,33 +279,63 @@
                     </div>
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         1
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div>                    
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         2
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div> 
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         3
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div>                     
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         4
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div> 
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         5
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div>                     
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         6
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div> 
                 </li>
                 <li>
@@ -227,8 +344,13 @@
                     </div>                     
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         8
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div> 
                 </li>
                 <li>
@@ -242,18 +364,33 @@
                     </div> 
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         11
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div>                     
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         12
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div> 
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         13
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div>                     
                 </li>
                 <li>
@@ -267,18 +404,33 @@
                     </div>                     
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         16
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div> 
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         17
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div>                     
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         18
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div> 
                 </li>
                 <li>
@@ -295,38 +447,73 @@
                     </div>
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         1
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div>                    
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         2
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div> 
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         3
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div>                     
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         4
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div> 
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         5
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div>                     
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         6
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div> 
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         7
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div>                     
                 </li>
                 <li>
@@ -345,18 +532,33 @@
                     </div> 
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         11
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div>                     
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         12
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div> 
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         13
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div>                     
                 </li>
                 <li>
@@ -365,23 +567,43 @@
                     </div> 
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         15
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div>                     
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         16
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div> 
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         17
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div>                     
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         18
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div> 
                 </li>
                 <li>
@@ -398,13 +620,23 @@
                     </div>
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         1
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div>                    
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         2
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div> 
                 </li>
                 <li>
@@ -413,28 +645,53 @@
                     </div>                     
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         4
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div> 
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         5
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div>                     
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         6
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div> 
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         7
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div>                     
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         8
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div> 
                 </li>
                 <li>
@@ -448,18 +705,33 @@
                     </div> 
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         11
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div>                     
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         12
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div> 
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         13
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div>                     
                 </li>
                 <li>
@@ -468,23 +740,43 @@
                     </div> 
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         15
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div>                     
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         16
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div> 
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         17
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div>                     
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         18
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div> 
                 </li>
                 <li>
@@ -498,212 +790,6 @@
                 <li>
                     <div class="numer_rzedu_miejsca">
                         5
-                    </div>
-                </li>
-                <li>
-                    <div class="ikona_niedostepne">
-                        1
-                    </div>                    
-                </li>
-                <li>
-                    <div class="ikona_niedostepne">
-                        2
-                    </div> 
-                </li>
-                <li>
-                    <div class="ikona_niedostepne">
-                        3
-                    </div>                     
-                </li>
-                <li>
-                    <div class="ikona_niedostepne">
-                        4
-                    </div> 
-                </li>
-                <li>
-                    <div class="ikona_wolne">
-                        5
-                    </div>                     
-                </li>
-                <li>
-                    <div class="ikona_wolne">
-                        6
-                    </div> 
-                </li>
-                <li>
-                    <div class="ikona_wolne">
-                        7
-                    </div>                     
-                </li>
-                <li>
-                    <div class="ikona_wolne">
-                        8
-                    </div> 
-                </li>
-                <li>
-                    <div class="ikona_niewidoczna">
-                        9
-                    </div> 
-                </li>
-                <li>
-                    <div class="ikona_niewidoczna">
-                        10
-                    </div> 
-                </li>
-                <li>
-                    <div class="ikona_wolne">
-                        11
-                    </div>                     
-                </li>
-                <li>
-                    <div class="ikona_wolne">
-                        12
-                    </div> 
-                </li>
-                <li>
-                    <div class="ikona_wolne">
-                        13
-                    </div>                     
-                </li>
-                <li>
-                    <div class="ikona_wolne">
-                        14
-                    </div> 
-                </li>
-                <li>
-                    <div class="ikona_wolne">
-                        15
-                    </div>                     
-                </li>
-                <li>
-                    <div class="ikona_niedostepne">
-                        16
-                    </div> 
-                </li>
-                <li>
-                    <div class="ikona_wolne">
-                        17
-                    </div>                     
-                </li>
-                <li>
-                    <div class="ikona_wolne">
-                        18
-                    </div> 
-                </li>
-                <li>
-                    <div class="numer_rzedu_miejsca">
-                        5
-                    </div>                     
-                </li>
-                
-            </ul>
-            <ul class="lista_rzedy">
-                <li>
-                    <div class="numer_rzedu_miejsca">
-                        6
-                    </div>
-                </li>
-                <li>
-                    <div class="ikona_wolne">
-                        1
-                    </div>                    
-                </li>
-                <li>
-                    <div class="ikona_wolne">
-                        2
-                    </div> 
-                </li>
-                <li>
-                    <div class="ikona_wolne">
-                        3
-                    </div>                     
-                </li>
-                <li>
-                    <div class="ikona_wolne">
-                        4
-                    </div> 
-                </li>
-                <li>
-                    <div class="ikona_wolne">
-                        5
-                    </div>                     
-                </li>
-                <li>
-                    <div class="ikona_niedostepne">
-                        6
-                    </div> 
-                </li>
-                <li>
-                    <div class="ikona_wolne">
-                        7
-                    </div>                     
-                </li>
-                <li>
-                    <div class="ikona_wolne">
-                        8
-                    </div> 
-                </li>
-                <li>
-                    <div class="ikona_niewidoczna">
-                        9
-                    </div> 
-                </li>
-                <li>
-                    <div class="ikona_niewidoczna">
-                        10
-                    </div> 
-                </li>
-                <li>
-                    <div class="ikona_wolne">
-                        11
-                    </div>                     
-                </li>
-                <li>
-                    <div class="ikona_wolne">
-                        12
-                    </div> 
-                </li>
-                <li>
-                    <div class="ikona_niedostepne">
-                        13
-                    </div>                     
-                </li>
-                <li>
-                    <div class="ikona_wolne">
-                        14
-                    </div> 
-                </li>
-                <li>
-                    <div class="ikona_wolne">
-                        15
-                    </div>                     
-                </li>
-                <li>
-                    <div class="ikona_wolne">
-                        16
-                    </div> 
-                </li>
-                <li>
-                    <div class="ikona_wolne">
-                        17
-                    </div>                     
-                </li>
-                <li>
-                    <div class="ikona_niedostepne">
-                        18
-                    </div> 
-                </li>
-                <li>
-                    <div class="numer_rzedu_miejsca">
-                        6
-                    </div>                     
-                </li>
-                
-            </ul>
-            <ul class="lista_rzedy">
-                <li>
-                    <div class="numer_rzedu_miejsca">
-                        7
                     </div>
                 </li>
                 <li>
@@ -722,28 +808,48 @@
                     </div>                     
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_niedostepne">
                         4
                     </div> 
                 </li>
                 <li>
-                    <div class="ikona_niedostepne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         5
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div>                     
                 </li>
                 <li>
-                    <div class="ikona_niedostepne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         6
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div> 
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         7
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div>                     
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         8
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div> 
                 </li>
                 <li>
@@ -757,28 +863,53 @@
                     </div> 
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         11
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div>                     
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         12
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div> 
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         13
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div>                     
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         14
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div> 
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         15
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div>                     
                 </li>
                 <li>
@@ -787,13 +918,344 @@
                     </div> 
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         17
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div>                     
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         18
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
+                    </div> 
+                </li>
+                <li>
+                    <div class="numer_rzedu_miejsca">
+                        5
+                    </div>                     
+                </li>
+                
+            </ul>
+            <ul class="lista_rzedy">
+                <li>
+                    <div class="numer_rzedu_miejsca">
+                        6
+                    </div>
+                </li>
+                <li>
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
+                        1
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
+                    </div>                    
+                </li>
+                <li>
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
+                        2
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
+                    </div> 
+                </li>
+                <li>
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
+                        3
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
+                    </div>                     
+                </li>
+                <li>
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
+                        4
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
+                    </div> 
+                </li>
+                <li>
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
+                        5
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
+                    </div>                     
+                </li>
+                <li>
+                    <div class="ikona_niedostepne">
+                        6
+                    </div> 
+                </li>
+                <li>
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
+                        7
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
+                    </div>                     
+                </li>
+                <li>
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
+                        8
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
+                    </div> 
+                </li>
+                <li>
+                    <div class="ikona_niewidoczna">
+                        9
+                    </div> 
+                </li>
+                <li>
+                    <div class="ikona_niewidoczna">
+                        10
+                    </div> 
+                </li>
+                <li>
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
+                        11
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
+                    </div>                     
+                </li>
+                <li>
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
+                        12
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
+                    </div> 
+                </li>
+                <li>
+                    <div class="ikona_niedostepne">
+                        13
+                    </div>                     
+                </li>
+                <li>
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
+                        14
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
+                    </div> 
+                </li>
+                <li>
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
+                        15
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
+                    </div>                     
+                </li>
+                <li>
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
+                        16
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
+                    </div> 
+                </li>
+                <li>
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
+                        17
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
+                    </div>                     
+                </li>
+                <li>
+                    <div class="ikona_niedostepne">
+                        18
+                    </div> 
+                </li>
+                <li>
+                    <div class="numer_rzedu_miejsca">
+                        6
+                    </div>                     
+                </li>
+                
+            </ul>
+            <ul class="lista_rzedy">
+                <li>
+                    <div class="numer_rzedu_miejsca">
+                        7
+                    </div>
+                </li>
+                <li>
+                    <div class="ikona_niedostepne">
+                        1
+                    </div>                    
+                </li>
+                <li>
+                    <div class="ikona_niedostepne">
+                        2
+                    </div> 
+                </li>
+                <li>
+                    <div class="ikona_niedostepne">
+                        3
+                    </div>                     
+                </li>
+                <li>
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
+                        4
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
+                    </div> 
+                </li>
+                <li>
+                    <div class="ikona_niedostepne">
+                        5
+                    </div>                     
+                </li>
+                <li>
+                    <div class="ikona_niedostepne">
+                        6
+                    </div> 
+                </li>
+                <li>
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
+                        7
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
+                    </div>                     
+                </li>
+                <li>
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
+                        8
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
+                    </div> 
+                </li>
+                <li>
+                    <div class="ikona_niewidoczna">
+                        9
+                    </div> 
+                </li>
+                <li>
+                    <div class="ikona_niewidoczna">
+                        10
+                    </div> 
+                </li>
+                <li>
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
+                        11
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
+                    </div>                     
+                </li>
+                <li>
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
+                        12
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
+                    </div> 
+                </li>
+                <li>
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
+                        13
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
+                    </div>                     
+                </li>
+                <li>
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
+                        14
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
+                    </div> 
+                </li>
+                <li>
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
+                        15
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
+                    </div>                     
+                </li>
+                <li>
+                    <div class="ikona_niedostepne">
+                        16
+                    </div> 
+                </li>
+                <li>
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
+                        17
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
+                    </div>                     
+                </li>
+                <li>
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
+                        18
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div> 
                 </li>
                 <li>
@@ -815,53 +1277,103 @@
                     </div>                    
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         2
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div> 
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         3
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div>                     
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         4
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div> 
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         5
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div>                     
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         6
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div> 
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         7
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div>                     
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         8
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div> 
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         9
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div> 
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         10
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div> 
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         11
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div>                     
                 </li>
                 <li>
@@ -870,23 +1382,43 @@
                     </div> 
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         13
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div>                     
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         14
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div> 
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         15
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div>                     
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         16
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div> 
                 </li>
                 <li>
@@ -895,8 +1427,13 @@
                     </div>                     
                 </li>
                 <li>
-                    <div class="ikona_wolne">
+                    <div class="ikona_wolne" onmousemove="popupin()" onmouseout="popupout()">
                         18
+                        <span class="popuptext" id="myPopup">
+                            <p><img class="poster" src='assets/kino_sala.jpg' style="width:250px;height:300px;"/>
+                                <button onclick="playmusic()">Włącz dźwięk</button>
+                                <button onclick="stopmusic()">Zatrzymaj dźwięk</button>
+                        </span>
                     </div> 
                 </li>
                 <li>
