@@ -1,20 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 :root {
-  --primary-color: #007AF3;
+  --primary-color: #007af3;
+}
+
+/* div {
+  border: 1px solid red;
+} */
+
+.roboczy {
+  margin-top: 109px;
 }
 
 body {
-  background: #F2F2F2;
+  background: #f2f2f2;
   margin: 0;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
 .navbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
   background: #02a7f0;
-  padding-left: 3em;
-  padding-top: 1em;
-  padding-right: 3em;
-  padding-bottom: 0.5em;
 }
 
 .navbar .container {
@@ -22,6 +30,10 @@ body {
   display: -ms-flexbox;
   display: flex;
   place-content: space-between;
+  padding-left: 3em;
+  padding-top: 1em;
+  padding-right: 3em;
+  padding-bottom: 0.5em;
 }
 
 .navbar .container .logo {
@@ -48,19 +60,27 @@ body {
   padding: 0.3em;
 }
 
-.navbar .container .button_logowanie_i_rejestracja {
+.navbar
+  .container
+  .button_logowanie_i_rejestracja {
   width: 250px;
   height: 50px;
   border-radius: 10px;
   border: 2px solid black;
+  cursor: pointer;
 }
 
-.navbar .container .button_logowanie_i_rejestracja .link_do_buttona {
+
+.navbar
+  .container
+  .button_logowanie_i_rejestracja
+  .link_do_buttona {
   text-decoration: none;
   font-size: 2em;
   margin: 0.5em;
   font-weight: bold;
   color: black;
+  cursor: pointer;
 }
 
 .navbar .container .vertical_line {
@@ -81,7 +101,10 @@ body {
   padding-bottom: 0;
 }
 
-.navbar .process_nav .process_nav_element_listy .div_process_nav_wybrany {
+.navbar
+  .process_nav
+  .process_nav_element_listy
+  .div_process_nav_wybrany {
   border: 2px solid black;
   width: 160px;
   height: 30px;
@@ -95,7 +118,10 @@ body {
   background-color: white;
 }
 
-.navbar .process_nav .process_nav_element_listy .div_process_nav {
+.navbar
+  .process_nav
+  .process_nav_element_listy
+  .div_process_nav {
   border: 2px solid black;
   width: 160px;
   height: 30px;
@@ -110,25 +136,28 @@ body {
   background-color: rgba(245, 154, 35, 1);
 }
 
-.navbar .przycisk_anuluj {
+.navbar .przycisk_anuluj  {
   border: 2px solid black;
-  width: 160px;
-  height: 50px;
   margin: 0.5em;
   text-align: center;
   border-radius: 10px;
   background-color: red;
+  cursor: pointer;
 }
 
-.navbar .przycisk_anuluj .wnetrze_przycisku_anuluj {
+.navbar
+  .przycisk_anuluj
+  .wnetrze_przycisku_anuluj {
   text-decoration: none;
   font-size: 1.99999em;
   font-weight: bold;
   color: white;
+  width: 160px;
+  height: 50px;
 }
 
 .sekcja-repertuar {
-  padding-top: 0;
+  padding-top: 109px;
   padding-left: 5%;
   padding-right: 1em;
 }
@@ -163,61 +192,99 @@ body {
   left: 5%;
 }
 
-.sekcja-plakatow-filmow .polecane-filmy .lista-polecanych-filmow-zewnetrzna {
+.sekcja-plakatow-filmow
+  .polecane-filmy
+  .lista-polecanych-filmow-zewnetrzna {
   list-style-type: none;
   display: block;
-  margin-left: 10%;
-  margin-right: auto;
   padding: 10px;
 }
 
-.sekcja-plakatow-filmow .polecane-filmy .lista-polecanych-filmow-zewnetrzna .element-1-lista-polecanych-filmow-zewnetrznej .lista-polecanych-filmow-wewnetrzna-1 {
+.sekcja-plakatow-filmow
+  .polecane-filmy
+  .lista-polecanych-filmow-zewnetrzna
+  .element-1-lista-polecanych-filmow-zewnetrznej
+  .lista-polecanych-filmow-wewnetrzna-1 {
   list-style-type: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-left: 0px;
 }
 
-.sekcja-plakatow-filmow .polecane-filmy .lista-polecanych-filmow-zewnetrzna .element-2-lista-polecanych-filmow-zewnetrznej .lista-polecanych-filmow-wewnetrzna-2 {
+.sekcja-plakatow-filmow
+  .polecane-filmy
+  .lista-polecanych-filmow-zewnetrzna
+  .element-2-lista-polecanych-filmow-zewnetrznej
+  .lista-polecanych-filmow-wewnetrzna-2 {
   list-style-type: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-left: 0px;
 }
 
 .sekcja-plakatow-filmow .premiery {
   padding-top: 1em;
 }
 
-.sekcja-plakatow-filmow .premiery .lista-premiery-zewnetrzna {
+.sekcja-plakatow-filmow
+  .premiery
+  .lista-premiery-zewnetrzna {
   list-style-type: none;
   display: block;
-  margin-left: 10%;
-  margin-right: auto;
   padding: 10px;
 }
 
-.sekcja-plakatow-filmow .premiery .lista-premiery-zewnetrzna .element-1-lista-premiery-zewnetrznej .lista-premiery-wewnetrzna-1 {
+.sekcja-plakatow-filmow
+  .premiery
+  .lista-premiery-zewnetrzna
+  .element-1-lista-premiery-zewnetrznej
+  .lista-premiery-wewnetrzna-1 {
   list-style-type: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-left: 0px;
 }
 
-.sekcja-plakatow-filmow .premiery .lista-premiery-zewnetrzna .element-2-lista-premiery-zewnetrznej .lista-premiery-wewnetrzna-2 {
+.sekcja-plakatow-filmow
+  .premiery
+  .lista-premiery-zewnetrzna
+  .element-2-lista-premiery-zewnetrznej
+  .lista-premiery-wewnetrzna-2 {
   list-style-type: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-left: 0px;
 }
 
-.film-glowna-strona .film-glowna-strona-pojemnik .poster {
+.film-glowna-strona
+  .film-glowna-strona-pojemnik
+  .poster {
   border: 1px #cccccc solid;
   padding: 4px;
   margin: auto;
 }
 
-.film-glowna-strona .film-glowna-strona-pojemnik .caption {
+.poster {
+  width: 250px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.poster img {
+  width: 100%;
+  height: auto;
+}
+
+.film-glowna-strona
+  .film-glowna-strona-pojemnik
+  .caption {
   color: black;
   font-style: italic;
   padding: 2px;
@@ -226,20 +293,25 @@ body {
 }
 
 .centralpanel {
-    height: 78%;
-    width: 1680px;
-    position: fixed;
-    padding-left: 240px;
-    overflow-x: hidden;
-    overflow-y: auto;
-    text-align:justify;
+  margin-top: 109px;
+  width: calc(100% - 261px);
+  margin-left: 225px;
+  padding: 36px 0px 0px 36px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: justify;
+}
+
+.centralpanel-potwierdzenie {
+  height: calc(100vh - 245px);
 }
 
 table {
   border: 1px solid black;
   width: 95%;
 }
-th, td {
+th,
+td {
   border: 0px solid black;
   text-align: center;
 }
@@ -249,131 +321,157 @@ th, td {
 }
 
 .centralpanel .listoftickets .text {
-    padding-top: 140px;
+  padding-top: 140px;
 }
 
 .centralpanel .listoftickets .text2 {
-    padding-top: 140px;
-    margin-right: 22%;
+  padding-top: 140px;
+  margin-right: 22%;
 }
 
 .sidebar {
-    height: 100%;
-    width: 220px;
-    background-color: rgba(128, 255, 255, 0.24705882352941178);
-    left: 0;
-    position: fixed;
-    padding-top: 15px;
-    padding-left: 5px;
-    border-width: 0 1px 0 0;
-    border-style: solid;
-    border-color: rgba(2, 167, 240, 1);
-    border-radius: 0px;
+  height: calc(100% - 124px);
+  width: 220px;
+  background-color: rgba(
+    128,
+    255,
+    255,
+    0.24705882352941178
+  );
+  left: 0;
+  position: absolute;
+  padding-top: 15px;
+  padding-left: 5px;
+  border-width: 0 1px 0 0;
+  border-style: solid;
+  border-color: rgba(2, 167, 240, 1);
+  border-radius: 0px;
 }
 
 .bottombar {
-    height: 100px;
-    width: 100%;
-    left: 226px;
-    bottom: 0;
-    position: fixed;
-    display: flex;
-    border-width: 1px 0 0 0;
-    border-style: solid;
-    border-color: rgba(2, 167, 240, 1);
-    border-radius: 0px;
+  height: 100px;
+  width: calc(100% - 226px);
+  left: 226px;
+  bottom: 0;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-width: 1px 0 0 0;
+  border-style: solid;
+  border-color: rgba(2, 167, 240, 1);
+  border-radius: 0px;
 }
 
 .bottombar .back_button {
-    width: 140px;
-    height: 40px;
-    margin-left: 5%;
-    margin-top: 30px;
-    background-color: rgba(255, 255, 255, 1);
-    box-sizing: border-box;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgba(121, 121, 121, 1);
-    border-radius: 5px;
+  width: 140px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 1);
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(121, 121, 121, 1);
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .bottombar .back_button .back_button_text {
-    align-self: center;
-    text-align: center;
-    padding: 2px 2px 2px 2px;
-    box-sizing: border-box;
-    width: 100%;
-    font-size: 13px;
-    font-family: "Arial Pogrubiony", "Arial Normalny", "Arial", sans-serif;
-    font-weight: 700;
-    font-style: normal;
+  align-self: center;
+  text-align: center;
+  padding: 2px 2px 2px 2px;
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 13px;
+  font-family: "Arial Pogrubiony",
+    "Arial Normalny", "Arial", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  cursor: pointer;
 }
 
 .bottombar .next_button {
-    width: 163px;
-    height: 69px;
-    margin-left: 850px;
-    margin-top: 15px;
-    background-color: rgba(3, 161, 19, 1);
-    box-sizing: border-box;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgba(121, 121, 121, 1);
-    border-radius: 5px;
+  width: 163px;
+  height: 69px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(3, 161, 19, 1);
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(121, 121, 121, 1);
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .bottombar .next_button .next_button_text {
-    align-self: center;
-    text-align: center;
-    padding: 2px 2px 2px 2px;
-    box-sizing: border-box;
-    width: 100%;
-    font-family: "Arial Pogrubiony", "Arial Normalny", "Arial", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 25px;
-    color: #FFFFFF;
-    line-height: normal;
-    text-transform: none;
+  align-self: center;
+  text-align: center;
+  padding: 2px 2px 2px 2px;
+  box-sizing: border-box;
+  width: 100%;
+  font-family: "Arial Pogrubiony",
+    "Arial Normalny", "Arial", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 25px;
+  color: #ffffff;
+  line-height: normal;
+  text-transform: none;
+  cursor: pointer;
 }
 
 .bottombar .final_back_button {
-    width: 268px;
-    height: 84px;
-    margin-left: 510px;
-    margin-top: 6px;
-    background-color: rgba(3, 161, 19, 1);
-    box-sizing: border-box;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgba(121, 121, 121, 1);
-    border-radius: 5px;
+  width: 268px;
+  height: 84px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(3, 161, 19, 1);
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(121, 121, 121, 1);
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-.bottombar .final_back_button .final_back_button_text {
-    align-self: center;
-    text-align: center;
-    padding: 2px 2px 2px 2px;
-    box-sizing: border-box;
-    width: 100%;
-    font-family: "Arial Pogrubiony", "Arial Normalny", "Arial", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 25px;
-    color: #FFFFFF;
-    line-height: normal;
-    text-transform: none;
+.bottombar
+  .final_back_button
+  .final_back_button_text {
+  align-self: center;
+  text-align: center;
+  box-sizing: border-box;
+  width: 100%;
+  font-family: "Arial Pogrubiony",
+    "Arial Normalny", "Arial", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 25px;
+  color: #ffffff;
+  line-height: normal;
+  text-transform: none;
+  cursor: pointer;
 }
 
 .srodkowy_napis_wybor_miejsc {
   align-self: center;
   text-align: center;
-  margin-left: 225px;
-  margin-top: -1px;
+  margin-top: 109px;
   border-width: 1px;
   border-style: solid;
   border-color: rgba(2, 167, 240, 1);
   border-radius: 0px;
+}
+
+.sekcja-wybor-miejsca {
+  width: calc(100% - 225px);
+  margin-left: 225px;
 }
 
 .legenda {
@@ -385,7 +483,6 @@ th, td {
   list-style-type: none;
   align-self: center;
   text-align: center;
-  margin-left: 225px;
   margin-top: -1px;
   border-width: 1px;
   border-style: solid;
@@ -434,22 +531,26 @@ th, td {
   background-color: rgba(245, 154, 35, 1);
 }
 
-.miejsca .miejsca_ekran {
-  padding-left: 27%;
+.miejsca {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.miejsca > img {
+  width: 90%;
   transform: rotate(180deg);
-  margin-top: 1.8%;
-  transform: scale(1.6);
 }
 
 .miejsca_ikony {
   margin-top: 2.3%;
-  margin-left: 15%;
 }
 .miejsca_ikony .lista_rzedy {
   list-style-type: none;
   align-self: center;
   text-align: center;
-  margin-left: 225px;
   display: flex;
   padding-left: 15px;
   margin-bottom: 7px;
@@ -531,75 +632,87 @@ th, td {
 }
 
 .bilety_main {
-    display: flex;
-    margin-left: 226px;
-    margin-top: 0px;
-    marigin-bottom: 100px;
-    height: 508px;
+  display: flex;
+  margin-left: 226px;
+  margin-top: 109px;
+  height: calc(100vh - 109px);
 }
 
 .iframe_bilety {
-    width: 2000px;
+  width: 100%;
 }
 
 .wybor_biletow_title {
-    text-align: center;
-    font-family: "Arial Pogrubiony", "Arial Normalny", "Arial", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 18px;
+  text-align: center;
+  font-family: "Arial Pogrubiony",
+    "Arial Normalny", "Arial", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
 }
 
 .columns_name {
 }
 
 .columns_name_list {
-    display: inline;
-}
-
-.columns_name_list1 {
-    margin-left: 3%;
-}
-
-.columns_name_list2 {
-    margin-left: 22%;
-}
-
-.columns_name_list3 {
-    margin-left: 22%;
-}
-
-.columns_name_list4 {
-    margin-left: 22%;
+  display: inline;
 }
 
 .choice_box {
-    border-width: 1px 0 0 0;
-    border-style: solid;
-    border-color: rgba(0, 0, 0, 1);
-    width: 100%;
-    height: 65px;
+  border-width: 1px 0 0 0;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 1);
+  width: 100%;
+  height: 65px;
 }
 
+.choice_box ul,
+.columns_names ul {
+  display: grid;
+  grid-template-columns: 10% 30% 30% 30%;
+  justify-items: center;
+}
 
 .choice_box_element {
-    display: inline;
+  display: inline;
 }
 
-.choice_box_element1 {
-    margin-left: 4%;
+.podsumowanie_przyciski {
+  list-style-type: none;
+  display: flex;
+  padding-left: 17%;
 }
 
-.choice_box_element2 {
-    margin-left: 25%;
+.podsumowanie_przyciski .przycisk_podsumowanie {
+  border: 1px solid black;
+  width: 200px;
+  height: 150px;
+  text-decoration: none;
+  font-size: 1.1em;
+  margin: 0.5em;
+  margin-left: 100px;
+  margin-right: 100px;
+  color: black;
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgb(128, 255, 255);
+  text-align: center;
+  align-self: center;
+  padding-top: 15%;
+  padding-bottom: 1%;
+  padding-left: 0;
+  padding-right: 0;
 }
 
-.choice_box_element3 {
-    margin-left: 24%;
+.podsumowanie_przyciski .przycisk_podsumowanie .napis_w_przycisku_podsumwoanie {
+  align-self: center;
 }
 
-.choice_box_element4 {
-    margin-left: 20%;
+.podsumowanie_przyciski .podsumowanie_albo {
+  font-size: 1.1em;
+  padding-top: 190%;
+  padding-bottom: 1%;
+
 }
 
 .popuptext {
@@ -642,5 +755,10 @@ th, td {
 @keyframes fadeIn {
   from {opacity: 0;}
   to {opacity:1 ;}
+}
+/*# sourceMappingURL=main.css.map */
+.podsumowanie_przyciski .link_bez_niczego {
+  text-decoration: none;
+  color: black;
 }
 /*# sourceMappingURL=main.css.map */
